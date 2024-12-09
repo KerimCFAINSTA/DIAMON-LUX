@@ -1,0 +1,49 @@
+.choix_ticket {
+    width: 100%;
+    margin: auto;
+    text-align: center; 
+    padding: 3%;
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+select{
+    width: 50%;
+    height: 50px;
+    font-size: 150%;
+    margin-bottom: 2%;
+}
+
+input{
+    width: 25%;
+    height: 50px;
+    font-size: 150%;
+    margin-bottom: 2%;
+}
+
+h1{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 1%;
+    background-color: black;
+    color: white;
+}
+
+.acheter{
+    margin-top: 2%;
+    padding: 1%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.recap{
+    margin-top: 2%;
+    padding: 1%;
+    background-color: white;
+    font-size: 150%;
+}

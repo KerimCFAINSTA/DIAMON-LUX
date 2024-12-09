@@ -1,0 +1,228 @@
+body{
+    background-color: #F6F7FA;;
+}
+
+.page_admin{
+    padding: 1%;
+}
+.input_admin{
+    background-color: rgb(255, 255, 255);
+    border: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    width: 15%;
+    padding-left: 1%;
+    padding: 1%;
+}
+
+.input_com{
+    background-color: rgb(255, 255, 255);
+    border: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    width: 50%;
+    padding-left: 1%;
+    padding: 1%;
+    margin-bottom: 1%;
+}
+
+.h1_admin{
+    border-radius: 5px;
+    background-color: rgb(37, 36, 36);
+    color: white;
+    padding-left: 5%;
+}
+
+.ajout{
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(135, 135, 135, 0.25);
+    padding-left: 1%;
+}
+
+.form_admin{
+    padding-left: 2%;
+    padding:1%;
+}
+
+.h2_admin{
+    border-radius: 5px;
+    padding-left: 30%;
+    background-color: rgb(37, 36, 36);
+    color: white;
+}
+
+.submit:hover {
+    cursor: pointer;
+}
+
+.form_evenement {
+    display: flex;
+    flex-direction: column;
+}
+
+.input1,.input2,.input_img,.submit {
+    margin-bottom: 10px;
+    margin-bottom: 1%;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    background-color: rgb(37, 36, 36);
+}
+
+
+#AdministrationMenbre{
+    cursor: pointer;
+}
+
+
+#AdministrationAjout{
+    cursor: pointer;
+}
+
+/* affichages des membres ou evenement ou article */
+
+.bouttons{
+    border-width: 1px;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+td{
+    padding-bottom: 2%;
+}
+
+tr{
+    margin-right: 10%;
+}
+
+#boutton_voir{
+    background-color: lightseagreen;
+}
+
+#boutton_supp{
+    background-color: rgb(192, 30, 30);
+}
+#boutton_ban{
+    background-color: rgb(192, 30, 30);
+}
+
+#boutton_upadmin{
+    background-color: lightblue;
+}
+
+.tout_les_filtre{
+    margin: 0,25%;
+}
+
+.filtre{
+    padding-left: 2%;
+    background-color: white;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.bouttons{
+    color: white;
+    background-color: white;
+    cursor: pointer;
+    border: 1px;
+}
+
+#refresh{
+    width: 2%;
+    border: none;
+
+}
+
+#img_refresh{
+    width: 15px;
+}
+
+#afficher_profil{                                                                             
+    
+    padding-left: 2%;
+    padding-right: 2%;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+/* Evenement */
+
+.evenement{
+    padding-left: 2%;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(135, 135, 135, 0.25);
+    border-radius: 10px;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.lien{
+    width: 25%;
+}
+
+.description{
+    width: 25%;
+}
+
+.date{
+    font-size: 30px;
+}
+
+.comentaire{
+    width: 100%;
+}
+
+.voir_paticipant{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+}
+
+/* Article */
+
+.info_article{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+
+    padding-left: 2%;
+    padding-top: 1%;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(135, 135, 135, 0.25);
+    border-radius: 10px;
+    margin-bottom: 1%;
+}
+
+.img_article{
+    width: 20%;
+    height: 20%;
+}
+
+.img_a{
+    width: 100%;
+    height: 100%;
+}
+
+.msg_error{
+    background-color: white;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}

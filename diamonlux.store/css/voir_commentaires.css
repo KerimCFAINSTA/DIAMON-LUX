@@ -1,0 +1,75 @@
+html{
+    background-color: rgb(218, 218, 218);
+}
+
+.le_com{
+    padding-left: 2%;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(135, 135, 135, 0.25);
+    border-radius: 10px;
+    margin-bottom: 1%;
+    font-size: 150%;
+    width: 95%;
+}
+
+.h4_com{
+    margin-bottom: 0%;
+}
+
+
+.le_commentaire{
+    padding-bottom: 5%;
+    margin-bottom: 2%;
+}
+
+
+
+.h1_com{
+    margin-right: 1%;
+    padding: 1%;
+    background-color: black;
+    color: white;
+}
+
+.commentaires {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+    padding: 2%;
+    background-color: white;
+    width: 95%;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+    margin: 0.5%;
+}
+
+.voir-commentaire{
+    width: 50%;
+    border: solid;
+    border-width: 1px;
+    padding-left: 1%;
+}
+
+.mes_commentaire{
+    width: 50%;
+    border: solid;
+    border-width: 1px;
+    padding-left: 1%;
+    
+}
+
+.buttons{
+    width: 35%;
+    height: 40px;
+    border-width: 1px;
+    border-radius: 5px;
+    margin: 1%;
+    padding: 5px;
+    cursor: pointer;
+    background-color: lightseagreen;
+    color: white;
+    text-align: center;
+    padding: 1%;
+    margin: auto;
+    font-size: 110%;
+}

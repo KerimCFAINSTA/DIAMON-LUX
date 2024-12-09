@@ -1,0 +1,59 @@
+
+.h1_profil{
+    background-color: rgb(48, 47, 47);
+    color: white;
+    padding-left: 5%;
+}
+
+.profil{                                                                             
+    
+    padding-left: 2%;
+    padding-right: 2%;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding: 1.5%;
+}
+
+
+.profil{
+    background-color: white;
+    box-shadow: 0 0 10px rgba(135, 135, 135, 0.25);
+    border-radius: 10px;
+}
+
+
+
+
+.h2_profil{
+    margin-bottom: 1px;
+}
+
+:hover .h2_profil{
+    cursor: pointer;
+}
+
+.input_profil {
+    margin-top: 1px;
+}
+
+
+#valid{
+    width: 20%;
+    height: 50%;
+    border-radius: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+:hover .nom_prenom{
+    cursor: pointer;
+}
+
+.nom_prenom{
+    margin-bottom: 1px;
+}

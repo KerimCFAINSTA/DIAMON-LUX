@@ -1,0 +1,41 @@
+main{
+   max-width: 1170px;
+   align-items: center;   
+   text-align: center;
+   margin:0 auto;
+   font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    font-size: 45px;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+.container {
+    display: flex;
+}
+
+.bloc {
+    width: 49%;
+    display: flex;
+    border: solid 1px grey;
+    padding: 1%;
+    height: fit-content;
+}
+
+.bloc:nth-child(1){
+    margin-right: 1%;
+}
+.bloc:nth-child(2){
+    margin-left: 1%;
+}
+
+.inputCss {
+    padding: 16px;
+    font-size: 20px;
+    border-radius: 4px;
+    border: solid 1px grey;
+}
+

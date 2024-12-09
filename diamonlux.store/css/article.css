@@ -1,0 +1,123 @@
+html{
+    background-color: rgb(218, 218, 218);
+}
+
+main{
+    padding-top: 10px;
+}
+
+.h1_article{
+    background-color:  rgb(23, 23, 23);
+    text-align: center;
+    color: white;
+    height: 2%;
+}
+
+.img_article{
+    padding: 10px;
+    width: 50%;
+   
+}
+
+.img_a{
+    width: 100%;
+}
+
+.barre_de_recherche{
+    margin-bottom: 2%;
+}
+
+#refresh{
+    width: 2%;
+    border: none;
+
+}
+
+#img_refresh{
+    width: 15px;
+}
+
+#search-article-input{
+    width: 50%;
+    text-align: center;
+}
+
+#toutLesArticles{
+    display: flex;
+    flex-wrap: wrap;
+ 
+}
+
+.article{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width: 49%;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+    margin: 0.5%;
+
+}
+
+.description{
+    width: 50%;
+}
+
+.h2_article{
+    text-align: center;
+    background-color: rgb(23, 23, 23);
+    color: white;
+}
+
+.h3_article{
+    padding-left: 10%;
+}
+
+.h4_article{
+    padding-left: 5%;
+}
+
+.tout_les_filtre{
+    margin: 0,25%;
+}
+
+.filtre{
+    background-color: white;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.boutton{
+    background-color: white;
+    cursor: pointer;
+    border: 1px;
+}
+
+.msg_error{
+    background-color: white;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.buttons{
+    width: 35%;
+    height: 40px;
+    border-width: 1px;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px;
+    cursor: pointer;
+    background-color: lightseagreen;
+    color: white;
+    text-align: center;
+    padding: 1%;
+    margin: auto;
+    font-size: 110%;
+}
+
+.action{
+    padding: 1%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}

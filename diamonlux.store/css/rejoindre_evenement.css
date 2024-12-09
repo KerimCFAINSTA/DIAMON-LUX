@@ -1,0 +1,63 @@
+.evenement{
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+
+.ligne1{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    border: solid;
+    border-width: 1px;
+}
+
+.img_e{
+    width: 75%;
+    height: 250px;
+}
+
+.nom{
+    text-align: center;
+    padding: 1%;
+}
+
+.ligne2{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+    border: solid;
+    border-width: 1px;
+}
+
+.description{
+    width: 50%;
+    font-size: 150%;
+}
+
+.bouttons{
+    width: 25%;
+    height: 50px;
+    border-width: 1px;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+    background-color: lightseagreen;
+    color: white;
+    font-size: 35px;
+    padding: auto;
+    text-decoration: none;
+}
+
+.rejoindre{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+#validation{
+    text-align: center;
+}

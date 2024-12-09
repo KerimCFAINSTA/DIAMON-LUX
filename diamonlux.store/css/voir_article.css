@@ -1,0 +1,169 @@
+html{
+    background-color: rgb(218, 218, 218);
+}
+
+main{
+    padding-top: 10px;
+}
+
+.h1_article{
+    background-color:  rgb(23, 23, 23);
+    text-align: center;
+    color: white;
+    height: 2%;
+}
+
+.img_article{
+    padding: 10px;
+    width: 50%;
+}
+
+.img_a{
+    width: 100%;
+}
+
+.article{
+    display: flex;
+    flex-direction: row;
+    border: solid;
+    border-width: 1px;
+    font-size: 200%;
+}
+
+.description{
+    width: 50%;
+}
+
+.h2_article{
+    text-align: center;
+    background-color: rgb(23, 23, 23);
+    color: white;
+}
+
+.h3_article{
+    padding-left: 10%;
+}
+
+.h4_article{
+    padding-left: 5%;
+}
+
+.tout_article{
+    background-color: white;
+    width: 99%;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+    margin: 0.5%;
+    padding-bottom: 1%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    
+}
+
+.achat{
+    border: solid;
+    border-width: 1px;
+    font-size: 200%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+button{
+    width: 20%;
+    height: 50px;
+    border-width: 1px;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px;
+    cursor: pointer;
+    background-color: lightseagreen;
+    color: white;
+    text-align: center;
+    margin: auto;
+    font-size: 110%;
+}
+
+/* commentaire */
+
+.commentaires {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+    padding: 2%;
+    background-color: white;
+    width: 95%;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+    margin: 0.5%;
+}
+
+.voir-commentaire{
+    width: 50%;
+    border: solid;
+    border-width: 1px;
+    padding-left: 1%;
+}
+
+.add_commentaire{
+    width: 50%;
+    border: solid;
+    border-width: 1px;
+    padding-left: 1%;
+    
+}
+
+/* Commentaire */
+.h1_com{
+    margin-right: 1%;
+    padding: 1%;
+    background-color: black;
+    color: white;
+}
+
+.form_com{
+    margin-right: 2%;
+}
+
+.form_com form{
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+}
+
+.input_com{
+    height: 50px;
+    font-size: 100%;
+    margin-bottom: 1%;
+    width: 100%;
+}
+
+.valider_com{
+    width: 50%;
+    background-color: lightseagreen;
+    color: white;
+    border: none;
+    height: 40px;
+    font-size: 110%;
+}
+
+.le_com{
+    padding-left: 2%;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(135, 135, 135, 0.25);
+    border-radius: 10px;
+    margin-bottom: 1%;
+    font-size: 150%;
+    width: 95%;
+}
+
+.h4_com{
+    margin-bottom: 0%;
+}
+
+
+.le_commentaire{
+    padding-bottom: 5%;
+    margin-bottom: 2%;
+}

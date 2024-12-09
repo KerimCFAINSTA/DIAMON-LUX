@@ -1,0 +1,78 @@
+.evenement{
+    padding-left: 2%;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(135, 135, 135, 0.25);
+    border-radius: 10px;
+    margin-bottom: 1%;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.lien{
+    width: 25%;
+}
+
+.description{
+    width: 25%;
+}
+
+.date{
+    font-size: 30px;
+}
+
+.comentaire{
+    width: 100%;
+}
+
+.msg_error{
+    background-color: white;
+    padding: 5%;
+    margin: 5%;
+    font-size: 120%;
+}
+
+p{
+    font-size: 125%;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.bouttons_voir{
+    width: 35%;
+    height: 40px;
+    border-width: 1px;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+    background-color: lightseagreen;
+    color: white;
+    font-size: 100%;
+    padding: auto;
+    text-decoration: none;
+}
+
+.bouttons_supp{
+    width: 35%;
+    height: 40px;
+    border-width: 1px;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgb(156, 40, 40);
+    color: white;
+    font-size: 100%;
+    padding: auto;
+    text-decoration: none;
+}

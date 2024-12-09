@@ -1,0 +1,102 @@
+body {
+    font-family: "Gill Sans", sans-serif; 
+}
+
+
+.section1{
+    
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+.formCo {
+    background-color: white;
+    box-shadow: 0 0 10px rgba(135, 135, 135, 0.25);
+    padding-top: 10%;
+    border-radius: 5px;
+    text-align: center;
+    border-color: grey;
+}
+
+
+.formCo input{
+    background-color: white;
+    width: 90%;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+.h2_connexion{
+    background-color: black;
+    color : white;
+    border-radius: 3px;
+}
+
+#txt{
+    text-align: center;
+}
+
+
+
+.mail, #mail-input{
+    margin: 5px;
+}
+
+.mdp, #mdp-input{
+    margin: 5px;
+}
+
+.inscription {
+    text-align: center;
+}
+  
+#no-account, #inscription-link{
+    display: inline-block;
+}
+
+#inscription-link{
+    text-decoration: none;
+    color: #6d6d6d;
+}
+
+
+/*------------------------------------Captcha------------------------------------*/
+
+.testBot{
+    cursor: pointer;
+}
+
+.table_connexion{
+    background-color: black;
+    border-collapse: collapse;
+    border: 3px solid;
+    table-layout: auto;
+    width: 70%;
+    height: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img_connexion{
+    width: 100%;
+    cursor: pointer;
+}
+
+.captcha{
+    display : none;
+}
+
+#button{
+
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    background-color: #ebebeb;
+    color: black;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    display: none;
+    
+}
